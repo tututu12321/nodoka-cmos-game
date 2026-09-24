@@ -1,0 +1,9 @@
+﻿id,date,month_day,name,text,pose,favor_delta,anger_delta,once_per_year,priority
+newyear,,01-01,New Year,あけましておめでとう。今年も回路を一つずつ詰めていこう。,wave_001,5,-10,1,100
+valentine,,02-14,Valentine,今日は少し特別な日だね。回路会話も甘めになるかも。,pout_001,4,-5,1,80
+white_day,,03-14,White Day,今日はホワイトデー。お返しより、丁寧な設計レビューがうれしいかな。,wave_003,4,-5,1,80
+tanabata,,07-07,Tanabata,七夕だね。仕様が全部通りますように、って短冊に書きたい。,wave_005,4,-5,1,80
+project_day,,09-24,Lab Day,今日は特別イベント。回路の話を少し多めにしよう。,jump_002,6,-8,1,90
+halloween,,10-31,Halloween,今日は少しだけ実験的な回路でも試してみる？,surprise_002,4,-5,1,80
+christmas_eve,,12-24,Christmas Eve,今日は少しゆっくり回路の話をしよう。,wave_008,5,-8,1,90
+christmas,,12-25,Christmas,シミュレーション結果もプレゼントみたいにきれいだといいね。,jump_004,5,-8,1,90
