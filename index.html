@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#0b0d12">
+<title>蟹谷のどかと学ぶ CMOSアナログ集積回路</title>
+<link rel="stylesheet" href="css/app.css">
+</head>
+<body>
+<div id="app">
+  <div id="bg"></div>
+
+  <div id="start">
+    <div class="card">
+      <h1>蟹谷のどかと学ぶ<br>CMOSアナログ集積回路</h1>
+      <p>回路会話、日付イベント、ゲームオーバー、謝罪復帰に対応しています。</p>
+      <div class="row">
+        <button id="startBtn" class="pill main">スタート</button>
+        <button id="csvBtn" class="pill">CSV読込</button>
+      </div>
+      <input id="importer" type="file" accept=".csv" multiple>
+    </div>
+  </div>
+
+  <div class="top">
+    <div id="title" class="glass"><div class="s">CMOS ANALOG IC LAB</div><div class="n">蟹谷 のどか</div></div>
+    <div id="stats" class="glass">
+      <div class="line"><span>好感度</span><span id="favorNum">76</span></div>
+      <div class="track"><div id="favorFill" class="fill" style="width:76%"></div></div>
+      <div style="height:5px"></div>
+      <div class="line"><span>怒り</span><span id="angerNum">0</span></div>
+      <div class="track"><div id="angerFill" class="fill" style="width:0%"></div></div>
+    </div>
+  </div>
+
+  <div id="stage">
+    <div id="shadow"></div>
+    <div id="wrap"><img id="girl" src="assets/images/base/idle1.png" alt="蟹谷のどか"></div>
+  </div>
+
+  <div id="dialogue" class="glass">
+    <div id="speech">スタートを押してください。</div>
+    <div class="controls">
+      <button id="techBtn" class="pill main">回路会話</button>
+      <button id="dailyBtn" class="pill">雑談</button>
+      <button id="pinchBtn" class="pill">つまみ</button>
+      <button id="leftBtn" class="pill">左</button>
+      <button id="rightBtn" class="pill">右</button>
+    </div>
+  </div>
+
+  <div id="gameover">
+    <div class="card">
+      <h1>GAME OVER</h1>
+      <p id="gameoverReason"></p>
+      <div id="apologyText" style="min-height:62px;line-height:1.6"></div>
+      <div class="row">
+        <button id="apologyBtn" class="pill main">謝る</button>
+        <button id="resetBtn" class="pill">最初から</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script src="data/fallback_dialogues.js"></script>
+<script src="data/fallback_poses.js"></script>
+<script src="data/fallback_events.js"></script>
+<script src="js/config.js"></script>
+<script src="js/csv.js"></script>
+<script src="js/data_loader.js"></script>
+<script src="js/state.js"></script>
+<script src="js/character.js"></script>
+<script src="js/dialogue.js"></script>
+<script src="js/events.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
